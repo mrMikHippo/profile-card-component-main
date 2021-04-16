@@ -24,7 +24,16 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: hsl(0, 0%, 59%);
-  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+  background:
+    url('../images/bg-pattern-top.svg'),
+    url('../images/bg-pattern-bottom.svg'),
+    hsl(185, 75%, 39%);
+  background-position:
+    top -50vh left -70vh,
+    bottom -50vh right -70vh;
+  background-repeat: no-repeat;
+  background-size: 100vh;
 }
 
 h1, h2, h3 {
@@ -102,4 +111,9 @@ main {
 .attribution a { color: hsl(228, 45%, 34%); }
 
 @media screen and (min-width: 1440px) {
+  body {
+    background-position:
+      top -40vh left,
+      bottom -50vh right;
+  }
 }

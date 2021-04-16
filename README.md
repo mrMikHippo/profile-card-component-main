@@ -84,4 +84,4 @@ I need to understand about using BEM.
 ## Author
 
 - Website - [github.com/mrMikHippo](https://github.com/mrMikHippo)
-- Frontend Mentor - [@mrMikHippo](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@mrMikHippo](https://www.frontendmentor.io/profile/mrMikHippo)
